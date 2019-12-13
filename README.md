@@ -1,4 +1,8 @@
-# friends-app
+# Friends-App
+
+## How Start?
+
+To start you need installed in your pc node.js
 
 ## Project setup
 ```
