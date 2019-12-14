@@ -31,7 +31,10 @@ export default new Vuex.Store({
   			// Existe
   			state.friends.splice(position, 1);
   		}
-  	}
+  	},
+    eliminarTodos(state) {
+      state.friends = new Array();
+    }
   },
   actions: {
   },

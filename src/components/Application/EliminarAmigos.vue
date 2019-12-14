@@ -11,6 +11,9 @@
 				</button>
 			</li>
   		</ul>
+  		<button v-if="friends.length !== 0" @click="eliminarTodos" class="btn btn-danger mt-2 btn-lg btn-block">
+  			Delete All Friends
+  		</button>
 	</div>
 </template>
 
@@ -26,7 +29,8 @@
 		},
 		methods: {
 			...mapMutations([
-				'eliminarAmigos'
+				'eliminarAmigos',
+				'eliminarTodos'
 			])
 		}
 	}

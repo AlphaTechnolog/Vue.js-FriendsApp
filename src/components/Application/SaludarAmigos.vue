@@ -1,6 +1,6 @@
 <template>
 	<div class="container pt-5">
-		<button class="btn btn-warning btn-lg btn-block" @click="saludarAmigos">
+		<button v-if="friends.length !== 0" class="btn btn-warning btn-lg btn-block" @click="saludarAmigos">
 			Greet All Friends
 		</button>
 		<div class="mt-3">
